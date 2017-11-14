@@ -7,7 +7,7 @@ h1{
   padding-top: 15px;
 }
 .comment_write{
-  border:1px solid black;
+  border:1px solid rgb(169, 169, 169);
   padding: 20px;
   margin: 30px auto;
   width: 80%;
@@ -17,29 +17,64 @@ h1{
 .comment_write .star_check .btn_star.off{}
 .comment_write input{}
 .comment_write #comment_text{
-    margin: 10px 10px 10px 0;
-    width: 100%;}
+    margin: 10px auto;
+    width: 97%;
+    padding: 10px;}
 .comment_write .btn_area{}
 .comment_write .btn_area #btn_commit{
   display: block;
   padding: 2px 15px;
   margin: auto;
+  background: #3F51B5;
+  cursor: pointer;
+  border-width: 1px;
+  color: white;
+  border-color: rgba(122, 117, 117, 0.34);
+  border-radius: 2px;
 }
+#comment_text{}
 
 
 /*평점 리스트*/
-.total_area{padding: 10px;}
+.total_area{
+    margin: 20px auto;
+    display: block;
+    width: 85%;
+}
 .total_area div{display: inline-block;}
-.total_area #btn_all_del{float: right}
+.total_area #btn_all_del{
+    float: right;
+    padding:2px 10px;
+    background: #3F51B5;
+    cursor: pointer;
+    border-width: 1px;
+    color: white;
+    border-color: rgba(122, 117, 117, 0.34);
+    border-radius: 2px;
+}
 
 /*평점 테이블*/
+table{    
+    margin: 0 auto;
+    width: 85%;
+}
+
+table,th,td{
+    border-collapse: collapse;
+    border:1px solid rgba(208, 208, 228, 0.82);
+}
 colgroup{}
 colgroup col{}
 
 thead{}
-thead tr{}
-thead tr th{}
+thead tr{
+    background-color: rgba(112, 120, 163, 0.83);
+    color: #fff
+}
+thead tr th{
+    padding: 5px;
+}
 
 tbody{}
 tbody tr{}
-tbody tr td{}
+tbody tr td{padding: 10px 5px}
