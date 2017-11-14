@@ -1,0 +1,45 @@
+*{padding: 0; margin: 0}
+a{text-decoration: none; color: black;}
+
+/*평점 쓰기*/
+h1{
+  text-align: center;
+  padding-top: 15px;
+}
+.comment_write{
+  border:1px solid black;
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+}
+.comment_write .star_check{}
+.comment_write .star_check .btn_star.on{}
+.comment_write .star_check .btn_star.off{}
+.comment_write input{}
+.comment_write #comment_text{
+    margin: 10px 10px 10px 0;
+    width: 100%;}
+.comment_write .btn_area{}
+.comment_write .btn_area #btn_commit{
+  display: block;
+  padding: 2px 15px;
+  margin: auto;
+}
+
+
+/*평점 리스트*/
+.total_area{padding: 10px;}
+.total_area div{display: inline-block;}
+.total_area #btn_all_del{float: right}
+
+/*평점 테이블*/
+colgroup{}
+colgroup col{}
+
+thead{}
+thead tr{}
+thead tr th{}
+
+tbody{}
+tbody tr{}
+tbody tr td{}
